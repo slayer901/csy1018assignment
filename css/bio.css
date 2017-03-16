@@ -1,0 +1,56 @@
+body{
+	margin:auto;
+	font-size:21px; 
+	background:#e3e3e3;
+	font-family:sans-serif;
+
+}
+h1{
+
+	background:linear-gradient(white,silver);
+	margin:auto;
+	text-align: center; 
+	color:green;
+	width:100%; 
+	 
+}
+.menubar ul{
+	background:linear-gradient(white,silver);
+	display:flex;
+	flex direction:row; 
+	float:left;
+	border:1px solid #555;
+	width:100%;
+
+	}
+a{
+	text-decoration:none; 
+	color:green;
+}
+.menubar ul li {
+	padding:10px;
+	margin:10px;
+	list-style:none;
+	}	
+ li a:hover{
+ 	background-color:#555;
+ 	color:blue;
+ 	text-align:center;
+ 	text-decoration:underline;  
+ }
+ .bio{ 
+ 	border:5px solid silver;
+ 	height:700px;  
+ 	background-image:url(../image/img3.jpg),url(../image/img4.jpg);
+ 	background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+ 	}
+ footer{
+ 	background:linear-gradient(white,silver); 
+ }	
+ @media screen and (max-width:600px){
+	  body{
+	  	font-size:10px; 
+	  }
+	 } 

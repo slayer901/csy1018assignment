@@ -7,14 +7,14 @@ body{
 	} 
 h1{
 
-	background:linear-gradient(red,orange);
+	background:linear-gradient(white,silver);
 	margin:auto;
 	text-align: center; 
-	color:white;
+	color:green;
 	 
 }
 .menubar ul{
-	background:linear-gradient(red,orange);
+	background:linear-gradient(white,silver);
 	display:flex;
 	flex direction:row; 
 	float:left;
@@ -23,7 +23,7 @@ h1{
 	}
 a{
 	text-decoration:none; 
-	color:white;
+	color:green;
 }
 .menubar ul li {
 	padding:10px;
@@ -31,7 +31,7 @@ a{
 	list-style:none;
 	}	
  li a:hover{
- 	background-color:#555;
+ 	background-color:blue;
  	color:white;
  	text-align:center;
  	text-decoration:underline;  
@@ -42,16 +42,26 @@ a{
 	       
 }
 section p{
-	background:linear-gradient(red,orange);
-	padding:6px; 
+	background:linear-gradient(white,silver);
+	padding:5px; 
 	height:100px; 
-	color:white;
+	color:green;
 	border:2px solid black;
 
 }
 footer .paragraph{
-	background:linear-gradient(red,orange); 
-	height:50px;  
+	background:linear-gradient(white,silver); 
+	height:50px; 
+	color:green;
+
+
+}
+footer .paragraph a:hover{
+	background-color:blue;
+ 	color:white;
+ 	text-align:center;
+ 	text-decoration:underline;  
+ }
 
 }
 @media screen and (max-width:600px){
