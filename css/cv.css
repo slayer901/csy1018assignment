@@ -2,7 +2,9 @@
 body{
 	margin:0;
 	font-size:21px; 
-	background:#e3e3e3; }
+	background:#e3e3e3;
+	font-family:sans-serif;
+	 }
 h1{
 	background:linear-gradient(red,orange);
 	margin:auto;
@@ -40,7 +42,7 @@ a{
 	display:flex;
 	justify-content:space-around;width:100%;  
 }
-.aboutme{background:linear-gradient(red,yellow);width:31%;  
+.aboutme{background:linear-gradient(green,blue);width:31%;  
 	flex-direction:row; 
 	padding:1px; 
 	border-style:solid;
@@ -48,16 +50,19 @@ a{
 	border-color:silver; 
 	border-radius:6px; 
 
+
 }
-.education{background:linear-gradient(red,yellow);width:31%;
+.education{background:linear-gradient(green,blue);width:31%;
 	padding:1px;
 	border:4px solid silver; 
-	border-radius:6px;  
+	border-radius:6px;
+	   
 }
-.RelevantCoursework{background:linear-gradient(red,yellow);width:31%;
+.RelevantCoursework{background:linear-gradient(green,blue);width:31%;
 	padding:1px;
-	border:4px solid sliver; 
-	border-radius:6px;  
+	border:4px solid silver; 
+	border-radius:6px;
+	  
 
 } 
 .ProfessionalExperience{
@@ -81,3 +86,11 @@ a{
 footer {
 	background:linear-gradient(red,orange); 
 }
+@media screen and (max-width:600px){
+	  body{font-size:10px;
+	  }
+	  .img{
+	  	padding:50px; 
+	  }
+
+	  }
