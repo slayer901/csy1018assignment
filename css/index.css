@@ -4,24 +4,23 @@ body{
 	font-size:21px; 
 	background:#e3e3e3;
 	font-family:sans-serif; 
-	} 
+	 } 
 h1{
 
 	background:linear-gradient(white,silver);
 	margin:auto;
 	text-align: center; 
 	color:green;
+	width:100%; 
 	 
 }
 .menubar ul{
 	background:linear-gradient(white,silver);
 	display:flex;
-	flex direction:row; 
-	float:left;
 	border:1px solid #555;
 	width:100%;
 	}
-a{
+.menubar ul li a{
 	text-decoration:none; 
 	color:green;
 }
@@ -30,23 +29,24 @@ a{
 	margin:10px;
 	list-style:none;
 	}	
- li a:hover{
+ .menubar ul li a:hover{
  	background-color:blue;
  	color:white;
  	text-align:center;
  	text-decoration:underline;  
  }
+
 .img{
-	padding-left:500px;  
+	margin-left:500px;  
+
 
 	       
 }
 section p{
 	background:linear-gradient(white,silver);
 	padding:5px; 
-	height:100px; 
 	color:green;
-	border:2px solid black;
+	border:2px solid #555;
 
 }
 footer .paragraph{
@@ -64,20 +64,27 @@ footer .paragraph a:hover{
  }
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
+		body {
+		font-size : 10px;
+			}
+
+		.img{
+			margin-left:20px;
+			}		
+}
+
+		
+	
 	  
-	  	body{
-	  		font-size:10px; 
-	  	}
-	  	.img{
-	  		padding:50px;
+
+	 
 	  		 
-	  	}
+	  	
 	  
 
 	 
 
-}
 
 						
 

@@ -17,8 +17,6 @@ h1{
 .menubar ul{
 	background:linear-gradient(white,silver);
 	display:flex;
-	flex direction:row; 
-	float:left;
 	border:1px solid #555;
 	width:100%;
 
@@ -47,6 +45,8 @@ a{
     padding: 15px;
  	}
  footer{
+ 	display:flex;
+ 	justify-content:space-between;  
  	background:linear-gradient(white,silver); 
  }	
  @media screen and (max-width:600px){
